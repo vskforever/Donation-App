@@ -1,0 +1,17 @@
+{
+    "name": "my-donation-app-backend",
+    "version": "1.0.0",
+    "main": "src/app.js",
+    "scripts": {
+        "dev": "nodemon src/app.js",
+        "start": "node src/app.js"
+    },
+    "dependencies": {
+        "dotenv": "^10.x.x",
+        "express": "^4.x.x",
+        "mongoose": "^6.x.x"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    }
+}
